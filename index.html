@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="/favicons/manifest.json">
-    <!-- http://realfavicongenerator.net/ Great favicon website! -->
+    <!-- http://realfavicongenerator.net/ Great favicon website! Thanks to Rifah van Liempt for the icon -->
     <title>Justin Zelinsky</title>
     <style>
         body {
@@ -16,7 +16,6 @@
             width: 800px;
             margin: 0 auto;
         }
-        
         body h1 {
             text-align: center;
             font-size: 72px;
@@ -24,28 +23,45 @@
         a {
             text-decoration: none;
         }
-        a img {
+        .links {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .links a {
+            margin: 0 10px;
+        }
+        .links a img {
+            width: 30px;
             vertical-align: middle;
+        }
+        .subtitle {
+            font-size: 10px;
         }
     </style>
 </head>
 
 <body>
-    <h1>Justin Zelinsky</h1>
+    <header>
+        <h1>Justin Zelinsky<div class="subtitle">(That's me)</div></h1>
+    </header>
     <section>
         <h2>What I do (professionally):</h2>
         <p>I am currently employed as a full-stack software engineer at <a href="https://octaneai.com" target="_blank">OctaneAI</a> where I write code to create chatbots.</p>
-        <p>I like: Javascript, React, Angular, SASS, HTML5, Node, Python, and Git.</p>
-        <p>I dislike: PHP and Webpages with long load times due to unnecessary dependencies.</p>
+        <p>I like: JavaScript(React, Node), SASS, HTML5, Python, and Git.</p>
+        <p>I dislike: PHP and webpages with long load times due to unnecessary dependencies.</p>
     </section>
     <section>
         <h2>What I do (for fun):</h2>
         <p>I like cooking bold recipes, listening to new music, &amp; traveling the world. I also enjoy studying various topics such as history, economics, &amp; astronomy.</p>
     </section>
     <section>
-        <div>
-            <a href="https://github.com/justinzelinsky" target="_blank"><img src="images/github.png" alt="Github"/> justinzelinsky</a>
+        <div class="links">
+            <a href="https://github.com/justinzelinsky" target="_blank"><img src="images/github.svg" alt="GitHub" /> justinzelinsky</a>
+            <a href="mailto:jpzelinsky@gmail.com"><img src="images/email.svg" alt="eMail" /> jpzelinsky@gmail.com</a>
+            <a href="https://twitter.com/justinzelinsky" target="_blank"><img src="images/twitter.svg" alt="Twitter" /> &#64;justinzelinsky</a>
         </div>
+        <!-- GitHub and Twitter svg found: https://simpleicons.org, eMail svg found on StackOverflow -->
     </section>
 </body>
 
